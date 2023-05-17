@@ -1,3 +1,9 @@
-require "user.options"
-require "user.colors"
-require "user.keymaps"
+-- Basic config
+require "config.options"
+require "config.highlights"
+-- require "config.colors"
+require "config.keymaps"
+require "config.plugins"
+
+-- Plugins config
+require "plugins.neosolarized"
